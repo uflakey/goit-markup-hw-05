@@ -541,22 +541,24 @@ button {
 }
 .subscribe-form {
   display: flex;
-  gap: 24;
+  gap: 24px;
 }
 .subscribe-form-label {
 }
 .subscribe-form-input {
   width: 264px;
   height: 40px;
-  margin-right: 24px;
+  padding-left: 16px;
   font-size: 12px;
   font-weight: 400;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 0.48px;
   color: var(--whit-title-col);
   border-radius: 4px;
   border: 1px solid var(--white, #fff);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 .subscribe-form-btn {
   font-weight: 500;
@@ -577,6 +579,10 @@ button {
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.subscribe-btn-icon {
+  margin-left: 16px;
 }
 
 /*Section portfolio styles*/
