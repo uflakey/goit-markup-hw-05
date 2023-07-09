@@ -879,6 +879,7 @@ button {
 /*Agreement blok*/
 .modal-form-agreement-container {
   display: flex;
+  flex-direction: row-reverse;
   align-items: baseline;
   gap: 8px;
   margin-bottom: 24px;
