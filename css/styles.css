@@ -848,7 +848,9 @@ button {
 .modal-form-input:focus + .modal-form-icon {
   fill: var(--accent-col);
 }
-
+.modal-form-field-comment {
+  margin-bottom: 16px;
+}
 .modal-form-comment {
   width: 100%;
   height: 120px;
@@ -876,6 +878,9 @@ button {
 }
 /*Agreement blok*/
 .modal-form-agreement-container {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
   margin-bottom: 24px;
 }
 .modal-form-agreement-label {
@@ -895,7 +900,7 @@ button {
 }
 
 .modal-form-custom-checkbox {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 16px;
@@ -903,6 +908,9 @@ button {
   flex-shrink: 0;
   border-radius: 2px;
   border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.4));
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: transparent;
 }
 
 .modal-form-checkbox-icon {
