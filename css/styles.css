@@ -922,6 +922,7 @@ button {
   border-color: #404bbf;
   background-color: #404bbf;
   border: none;
+  fill: var(--team-bg-col);
 }
 
 .modal-form-checkbox:checked
