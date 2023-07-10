@@ -918,12 +918,16 @@ button {
   opacity: 0;
 }
 
-.modal-form-checkbox:checked + .modal-form-custom-checkbox {
+.modal-form-checkbox:checked + .modal-form-agreement-label .modal-form-custom-checkbox {
   border-color: #404bbf;
   background-color: #404bbf;
+  border: none;
 }
 
-.modal-form-checkbox:checked + .modal-form-custom-checkbox .modal-form-checkbox-icon {
+.modal-form-checkbox:checked
+  + .modal-form-agreement-label
+  .modal-form-custom-checkbox
+  .modal-form-checkbox-icon {
   opacity: 1;
   fill: var(--team-bg-col);
 }
