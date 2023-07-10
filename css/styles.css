@@ -878,14 +878,14 @@ button {
 }
 /*Agreement blok*/
 .modal-form-agreement-container {
-  display: flex;
+  display: inline-flex;
   flex-direction: row-reverse;
   align-items: baseline;
   gap: 8px;
   margin-bottom: 24px;
 }
 .modal-form-agreement-label {
-  display: flex;
+  display: inline-flex;
   width: 360px;
   align-items: center;
   gap: 8px;
@@ -901,7 +901,7 @@ button {
 }
 
 .modal-form-custom-checkbox {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 16px;
