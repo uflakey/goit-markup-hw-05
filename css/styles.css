@@ -901,7 +901,7 @@ button {
 }
 
 .modal-form-custom-checkbox {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 16px;
